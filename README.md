@@ -1,8 +1,14 @@
-# Text Editer
+# PWA Text Editer
 
 Protected by a ![Static Badge](https://img.shields.io/badge/MIT-b06402) [License](#license)
 
+link ro live : https://salty-anchorage-84195-31bbbac79722.herokuapp.com/
+
 ## Description
+
+![Picture of working site](images/PwaLog.PNG)
+
+![picture of workimg site](images/pwa.PNG)
 
 A simple text editer. Note most files are depricated.
 
