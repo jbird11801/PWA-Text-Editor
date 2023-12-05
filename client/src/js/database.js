@@ -21,7 +21,7 @@ const tx = jateDb.transaction('jate', 'readwrite');
 
 const store = tx.objectStore('jate');
 
-const request = store.add({ content : content });
+const request = store.add({ ID : 1 , value : content }); // added id and new key name key 
 
 const result = await request;
 console.log('Data saved to the database', result);
@@ -37,11 +37,11 @@ export const getDb = async () => { //console.error('getDb not implemented');
 
   const store = tx.objectStore('jate');
 
-  const request = store.getAll();
+  const request = store.get(1);
 
   const result = await request;
 
-  console.log('result.value', result);
+  console.log('result.value', result?.value); 
 
   return result;
 
