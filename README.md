@@ -1,8 +1,12 @@
-# Text Editer
+# PWA Text Editer
 
 Protected by a ![Static Badge](https://img.shields.io/badge/MIT-b06402) [License](#license)
 
 ## Description
+
+![Picture of working site](images/PwaLog.PNG)
+
+![picture of workimg site](images/pwa.PNG)
 
 A simple text editer. Note most files are depricated.
 
